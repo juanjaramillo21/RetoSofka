@@ -44,7 +44,7 @@ showWelcome(metodos, Menu,callback) {
 
     <div id="history">
     <h1>History</h1>
-    <button id="reload" class="btnstart"> Empezar el juego </button>
+    <button id="reload" class="btnstart"> Cargar historial </button>
     <input id="historyin" class="history"></input>
     <table id="historial"></table>
     </div>`;
@@ -55,7 +55,7 @@ showWelcome(metodos, Menu,callback) {
       function iniciodeljuego () {
         console.log("iniciando");
         const name=document.getElementById('nombre').value;
-        history.history.set(nombre)
+        //history.history.set(nombre)
         console.log(name);
         metodos.categoryIndex=1;
         console.log(callback);
